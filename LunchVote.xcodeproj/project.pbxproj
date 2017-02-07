@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FB58DEF6A4F53DCC58E4491 /* Pods_LunchVote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 102862DF51EB37C4A3AF82BA /* Pods_LunchVote.framework */; };
 		A256B8F51E44A98A001022D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256B8F41E44A98A001022D2 /* AppDelegate.swift */; };
-		A256B8F71E44A98A001022D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256B8F61E44A98A001022D2 /* ViewController.swift */; };
+		A256B8F71E44A98A001022D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256B8F61E44A98A001022D2 /* MainViewController.swift */; };
 		A256B8FA1E44A98A001022D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A256B8F81E44A98A001022D2 /* Main.storyboard */; };
 		A256B8FD1E44A98A001022D2 /* LunchVote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A256B8FB1E44A98A001022D2 /* LunchVote.xcdatamodeld */; };
 		A256B8FF1E44A98A001022D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A256B8FE1E44A98A001022D2 /* Assets.xcassets */; };
 		A256B9021E44A98A001022D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A256B9001E44A98A001022D2 /* LaunchScreen.storyboard */; };
 		A256B90D1E44A98A001022D2 /* LunchVoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256B90C1E44A98A001022D2 /* LunchVoteTests.swift */; };
 		A256B9181E44A98A001022D2 /* LunchVoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A256B9171E44A98A001022D2 /* LunchVoteUITests.swift */; };
+		A26DB4C21E46A6B600887C15 /* Info PROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = A26DB4C01E46A6B600887C15 /* Info PROD.plist */; };
+		A26DB4C31E46A6B600887C15 /* Info UAT.plist in Resources */ = {isa = PBXBuildFile; fileRef = A26DB4C11E46A6B600887C15 /* Info UAT.plist */; };
+		A26DB4C51E47557E00887C15 /* LVMultipeerConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DB4C41E47557E00887C15 /* LVMultipeerConnect.swift */; };
+		A26DB4C71E4756F100887C15 /* LVConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DB4C61E4756F100887C15 /* LVConstant.swift */; };
+		A26DB4C91E47580A00887C15 /* LVCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DB4C81E47580A00887C15 /* LVCacheManager.swift */; };
+		A26DB4CB1E48A99C00887C15 /* LViBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DB4CA1E48A99C00887C15 /* LViBeacon.swift */; };
+		A26DB4CD1E48B49300887C15 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26DB4CC1E48B49300887C15 /* MapKit.framework */; };
+		A2B777511E462146009262F9 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B777501E462146009262F9 /* UserProfileViewController.swift */; };
+		BDAE64A75C0213544D8276AF /* Pods_LunchVoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27650D1D34CCF577B4A94916 /* Pods_LunchVoteTests.framework */; };
+		CADD4651109630217D8C2AB8 /* Pods_LunchVoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831FC81DE5877984390ABF68 /* Pods_LunchVoteUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102862DF51EB37C4A3AF82BA /* Pods_LunchVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunchVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27650D1D34CCF577B4A94916 /* Pods_LunchVoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunchVoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F51F6B2962D289F3760418 /* Pods-LunchVoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunchVoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunchVoteUITests/Pods-LunchVoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B51C00ABCF199C97C0F5814 /* Pods-LunchVote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunchVote.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunchVote/Pods-LunchVote.release.xcconfig"; sourceTree = "<group>"; };
+		41A8D2D5ED381CC178921E24 /* Pods-LunchVoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunchVoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunchVoteTests/Pods-LunchVoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		717BFC6DA70D4EB9CB4B6304 /* Pods-LunchVoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunchVoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunchVoteUITests/Pods-LunchVoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		831FC81DE5877984390ABF68 /* Pods_LunchVoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunchVoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A256B8F11E44A98A001022D2 /* LunchVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A256B8F41E44A98A001022D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A256B8F61E44A98A001022D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A256B8F61E44A98A001022D2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A256B8F91E44A98A001022D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A256B8FC1E44A98A001022D2 /* LunchVote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LunchVote.xcdatamodel; sourceTree = "<group>"; };
 		A256B8FE1E44A98A001022D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +67,17 @@
 		A256B9131E44A98A001022D2 /* LunchVoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchVoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A256B9171E44A98A001022D2 /* LunchVoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchVoteUITests.swift; sourceTree = "<group>"; };
 		A256B9191E44A98A001022D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26DB4C01E46A6B600887C15 /* Info PROD.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info PROD.plist"; sourceTree = "<group>"; };
+		A26DB4C11E46A6B600887C15 /* Info UAT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info UAT.plist"; sourceTree = "<group>"; };
+		A26DB4C41E47557E00887C15 /* LVMultipeerConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LVMultipeerConnect.swift; sourceTree = "<group>"; };
+		A26DB4C61E4756F100887C15 /* LVConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LVConstant.swift; sourceTree = "<group>"; };
+		A26DB4C81E47580A00887C15 /* LVCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LVCacheManager.swift; sourceTree = "<group>"; };
+		A26DB4CA1E48A99C00887C15 /* LViBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LViBeacon.swift; sourceTree = "<group>"; };
+		A26DB4CC1E48B49300887C15 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A2B7774F1E4613B8009262F9 /* LunchVote-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LunchVote-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2B777501E462146009262F9 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		B02FD27BAA0898D20C35E39A /* Pods-LunchVoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunchVoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunchVoteTests/Pods-LunchVoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5252295E00FB4AA22FA2800 /* Pods-LunchVote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunchVote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunchVote/Pods-LunchVote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26DB4CD1E48B49300887C15 /* MapKit.framework in Frameworks */,
+				7FB58DEF6A4F53DCC58E4491 /* Pods_LunchVote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAE64A75C0213544D8276AF /* Pods_LunchVoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADD4651109630217D8C2AB8 /* Pods_LunchVoteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53B3A5B2EDA9CB0342D5F405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A26DB4CC1E48B49300887C15 /* MapKit.framework */,
+				102862DF51EB37C4A3AF82BA /* Pods_LunchVote.framework */,
+				27650D1D34CCF577B4A94916 /* Pods_LunchVoteTests.framework */,
+				831FC81DE5877984390ABF68 /* Pods_LunchVoteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A256B8E81E44A98A001022D2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				A256B90B1E44A98A001022D2 /* LunchVoteTests */,
 				A256B9161E44A98A001022D2 /* LunchVoteUITests */,
 				A256B8F21E44A98A001022D2 /* Products */,
+				FA2ACFFEF08547ABF9F9C4A8 /* Pods */,
+				53B3A5B2EDA9CB0342D5F405 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +146,19 @@
 			isa = PBXGroup;
 			children = (
 				A256B8F41E44A98A001022D2 /* AppDelegate.swift */,
-				A256B8F61E44A98A001022D2 /* ViewController.swift */,
+				A2B7774F1E4613B8009262F9 /* LunchVote-Bridging-Header.h */,
+				A256B8F61E44A98A001022D2 /* MainViewController.swift */,
+				A2B777501E462146009262F9 /* UserProfileViewController.swift */,
 				A256B8F81E44A98A001022D2 /* Main.storyboard */,
+				A26DB4C41E47557E00887C15 /* LVMultipeerConnect.swift */,
+				A26DB4CA1E48A99C00887C15 /* LViBeacon.swift */,
+				A26DB4C61E4756F100887C15 /* LVConstant.swift */,
+				A26DB4C81E47580A00887C15 /* LVCacheManager.swift */,
 				A256B8FE1E44A98A001022D2 /* Assets.xcassets */,
 				A256B9001E44A98A001022D2 /* LaunchScreen.storyboard */,
+				A26DB4C01E46A6B600887C15 /* Info PROD.plist */,
 				A256B9031E44A98A001022D2 /* Info.plist */,
+				A26DB4C11E46A6B600887C15 /* Info UAT.plist */,
 				A256B8FB1E44A98A001022D2 /* LunchVote.xcdatamodeld */,
 			);
 			path = LunchVote;
@@ -128,6 +182,19 @@
 			path = LunchVoteUITests;
 			sourceTree = "<group>";
 		};
+		FA2ACFFEF08547ABF9F9C4A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5252295E00FB4AA22FA2800 /* Pods-LunchVote.debug.xcconfig */,
+				3B51C00ABCF199C97C0F5814 /* Pods-LunchVote.release.xcconfig */,
+				B02FD27BAA0898D20C35E39A /* Pods-LunchVoteTests.debug.xcconfig */,
+				41A8D2D5ED381CC178921E24 /* Pods-LunchVoteTests.release.xcconfig */,
+				39F51F6B2962D289F3760418 /* Pods-LunchVoteUITests.debug.xcconfig */,
+				717BFC6DA70D4EB9CB4B6304 /* Pods-LunchVoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A256B91C1E44A98A001022D2 /* Build configuration list for PBXNativeTarget "LunchVote" */;
 			buildPhases = (
+				8246EAE804356A0FE9A92EFF /* [CP] Check Pods Manifest.lock */,
 				A256B8ED1E44A98A001022D2 /* Sources */,
 				A256B8EE1E44A98A001022D2 /* Frameworks */,
 				A256B8EF1E44A98A001022D2 /* Resources */,
+				49519B6FF49FBA8F10A8BA1D /* [CP] Embed Pods Frameworks */,
+				F6592CF5E3203B8997205589 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A256B91F1E44A98A001022D2 /* Build configuration list for PBXNativeTarget "LunchVoteTests" */;
 			buildPhases = (
+				6ACEE7EEF1AE4D744062B90F /* [CP] Check Pods Manifest.lock */,
 				A256B9041E44A98A001022D2 /* Sources */,
 				A256B9051E44A98A001022D2 /* Frameworks */,
 				A256B9061E44A98A001022D2 /* Resources */,
+				CE7399B2C626DB439360F5B1 /* [CP] Embed Pods Frameworks */,
+				EA4FDC0E56D3229E8EBA6483 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A256B9221E44A98A001022D2 /* Build configuration list for PBXNativeTarget "LunchVoteUITests" */;
 			buildPhases = (
+				E181292A7E99AAFD5DC20F98 /* [CP] Check Pods Manifest.lock */,
 				A256B90F1E44A98A001022D2 /* Sources */,
 				A256B9101E44A98A001022D2 /* Frameworks */,
 				A256B9111E44A98A001022D2 /* Resources */,
+				65FAF3B71DDB10FC5F40A47F /* [CP] Embed Pods Frameworks */,
+				E9357AF42E5AD83353A0E409 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +274,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DQK83PW4RV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					A256B9071E44A98A001022D2 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -240,6 +321,8 @@
 			files = (
 				A256B9021E44A98A001022D2 /* LaunchScreen.storyboard in Resources */,
 				A256B8FF1E44A98A001022D2 /* Assets.xcassets in Resources */,
+				A26DB4C21E46A6B600887C15 /* Info PROD.plist in Resources */,
+				A26DB4C31E46A6B600887C15 /* Info UAT.plist in Resources */,
 				A256B8FA1E44A98A001022D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +343,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49519B6FF49FBA8F10A8BA1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunchVote/Pods-LunchVote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65FAF3B71DDB10FC5F40A47F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunchVoteUITests/Pods-LunchVoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ACEE7EEF1AE4D744062B90F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8246EAE804356A0FE9A92EFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7399B2C626DB439360F5B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunchVoteTests/Pods-LunchVoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E181292A7E99AAFD5DC20F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9357AF42E5AD83353A0E409 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunchVoteUITests/Pods-LunchVoteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4FDC0E56D3229E8EBA6483 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunchVoteTests/Pods-LunchVoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6592CF5E3203B8997205589 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunchVote/Pods-LunchVote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A256B8ED1E44A98A001022D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A256B8F71E44A98A001022D2 /* ViewController.swift in Sources */,
+				A256B8F71E44A98A001022D2 /* MainViewController.swift in Sources */,
+				A26DB4CB1E48A99C00887C15 /* LViBeacon.swift in Sources */,
+				A2B777511E462146009262F9 /* UserProfileViewController.swift in Sources */,
+				A26DB4C91E47580A00887C15 /* LVCacheManager.swift in Sources */,
 				A256B8F51E44A98A001022D2 /* AppDelegate.swift in Sources */,
+				A26DB4C71E4756F100887C15 /* LVConstant.swift in Sources */,
 				A256B8FD1E44A98A001022D2 /* LunchVote.xcdatamodeld in Sources */,
+				A26DB4C51E47557E00887C15 /* LVMultipeerConnect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +593,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "LunchVote/LunchVote-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -408,6 +635,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "LunchVote/LunchVote-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -415,10 +643,12 @@
 		};
 		A256B91D1E44A98A001022D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5252295E00FB4AA22FA2800 /* Pods-LunchVote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQK83PW4RV;
 				INFOPLIST_FILE = LunchVote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.siphty.com.LunchVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,10 +658,12 @@
 		};
 		A256B91E1E44A98A001022D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B51C00ABCF199C97C0F5814 /* Pods-LunchVote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQK83PW4RV;
 				INFOPLIST_FILE = LunchVote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.siphty.com.LunchVote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +673,7 @@
 		};
 		A256B9201E44A98A001022D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02FD27BAA0898D20C35E39A /* Pods-LunchVoteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +689,7 @@
 		};
 		A256B9211E44A98A001022D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A8D2D5ED381CC178921E24 /* Pods-LunchVoteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +705,7 @@
 		};
 		A256B9231E44A98A001022D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F51F6B2962D289F3760418 /* Pods-LunchVoteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DQK83PW4RV;
@@ -485,6 +720,7 @@
 		};
 		A256B9241E44A98A001022D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717BFC6DA70D4EB9CB4B6304 /* Pods-LunchVoteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DQK83PW4RV;
@@ -516,6 +752,7 @@
 				A256B91E1E44A98A001022D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A256B91F1E44A98A001022D2 /* Build configuration list for PBXNativeTarget "LunchVoteTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +761,7 @@
 				A256B9211E44A98A001022D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A256B9221E44A98A001022D2 /* Build configuration list for PBXNativeTarget "LunchVoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +770,7 @@
 				A256B9241E44A98A001022D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
